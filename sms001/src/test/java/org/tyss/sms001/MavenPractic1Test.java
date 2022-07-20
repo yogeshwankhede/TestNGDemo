@@ -18,6 +18,10 @@ public class MavenPractic1Test {
 		System.out.println("configure xml file");
 	}@Test
 	public void testAction5() {
+		System.out.println("configure xml file");
+
+		System.out.println("configure xml file");
+
 		System.out.println("run from cmd");
 	}
 }

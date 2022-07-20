@@ -11,6 +11,8 @@ public class MavenPractice2Test {
 		String password = getProperty("PWD");
 		String url = getProperty("URL");
 		System.out.println(username+password+url+browser);
+		System.out.println(username+password+url+browser);
+
 		return string;
 	}
 
