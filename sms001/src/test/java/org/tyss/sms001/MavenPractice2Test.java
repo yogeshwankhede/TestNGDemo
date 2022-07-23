@@ -6,10 +6,10 @@ public class MavenPractice2Test {
 	@Test
 	public String getProperty(String string) {
 		//Get data from property file
-		   String browser = getProperty("BROWSER");
-		String username = getProperty("UN");
-		String password = getProperty("PWD");
-		String url = getProperty("URL");
+		   String browser =System.getProperty("BROWSER");
+		String username =System.getProperty("UN");
+		String password = System.getProperty("PWD");
+		String url =System.getProperty("URL");
 		System.out.println(username+password+url+browser);
 		System.out.println(username+password+url+browser);
 
